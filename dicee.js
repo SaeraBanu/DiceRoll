@@ -7,11 +7,11 @@ document.querySelector(".img2").setAttribute("src",imageRight);
 
 
 if(randomNumber1>randomNumber2){
-  document.querySelector("h1").textContent="Player1 wins!";
+  document.querySelector("h2").textContent="Player1 wins!";
 }
 else if(randomNumber1<randomNumber2){
-  document.querySelector("h1").textContent="Player2 wins!";
+  document.querySelector("h2").textContent="Player2 wins!";
 }
 else{
-  document.querySelector("h1").textContent="Draw!";
+  document.querySelector("h2").textContent="Draw!";
 }
